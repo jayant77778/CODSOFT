@@ -79,8 +79,69 @@ The ATM (Automated Teller Machine) simulator is a Java console-based application
 #### Technologies Used
 - Java
 
+
+---
+
+# Quiz Application
+
+This is a simple Quiz Application developed in Java as part of a programming exercise or educational project. It presents the user with a series of multiple-choice questions and evaluates their answers.
+
+## Features
+
+- **Multiple-choice Questions:** The quiz consists of 5 predefined questions with 4 options each.
+- **Interactive Interface:** Users interact with the program via the command-line interface (CLI).
+- **Scoring:** Users earn points for correct answers and receive immediate feedback.
+- **Result Display:** At the end of the quiz, the program displays the user's score out of the total number of questions.
+
+## Requirements
+
+- Java Development Kit (JDK) installed on your system.
+- Basic understanding of Java programming and command-line interface.
+
+## Getting Started
+
+
+1. **Compile the program:**
+   ```bash
+   javac QuizApplication.java
+   ```
+
+2. **Run the program:**
+   ```bash
+   java QuizApplication
+   ```
+
+3. **Follow the on-screen instructions** to answer the quiz questions.
+
+## Usage
+
+- The program will display each question sequentially.
+- Enter the number corresponding to your chosen answer and press `Enter`.
+- The program will immediately inform you if your answer was correct or incorrect.
+- At the end of the quiz, your total score will be displayed.
+
+## Example
+
+```
+Welcome to the Quiz! Answer the following questions:
+
+Question: Which animal is known as the 'Ship of the Desert'?
+1. Camel
+2. Horse
+3. Elephant
+4. Lion
+Your answer (enter option number): 1
+Correct!
+
+...
+
+Quiz ended! Your score: 5/5
+```
+
+
+
 ### Additional Information
 - GitHub Repository: [Number Guessing Game](https://github.com/jayant77778/CODSOFT/tree/main/number%20guessing%20game)
 - GitHub Repository: [Student Grade Generator](https://github.com/jayant77778/CODSOFT/tree/main/studentgrade%20genrator)
 - GitHub Repository: [ATM Simulator](https://github.com/jayant77778/CODSOFT/tree/main/atmgenerator)
-
+- GitHub Repository: [Quiz Application](https://github.com/jayant77778/CODSOFT/tree/main/quiz%20application)
